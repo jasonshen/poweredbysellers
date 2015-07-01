@@ -28,3 +28,8 @@
 .active {
   display:block!important;
 }
+
+.logo {
+  width: 70%;
+  max-width:300px;
+}
