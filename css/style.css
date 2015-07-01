@@ -1,0 +1,30 @@
+.navigation ul{
+  padding:0px;
+  display: block;
+}
+
+.navigation li{
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding:10px;
+  background: #EEE;
+  margin: 2px;
+}
+
+.navigation .current{
+  background: #FF6F00;
+  color: white;
+}
+
+.navigation li:hover {
+  background: #FFCA28;
+}
+
+.inactive {
+  display:none;
+}
+
+.active {
+  display:block!important;
+}

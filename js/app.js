@@ -1,17 +1,23 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
-	var commonwords = window.commonwords;
-	var commonnames = window.commonnames;
-	var testdata = window.testdata;
-	console.log(commonwords);
-	console.log("hey")
-	$("mui-panel").click();
-	console.log(commonnames.fred)
-	console.log(commonnames.one);
-	console.log(_.contains(commonnames, "jason"));
-	_.each(testdata, function() {
-		console.log("hey");
-		// _.contains(commonnames, element)
-	});
+
+  $(".navigation li").click(function() {
+    $(this).siblings().removeClass();
+    $( this ).addClass("current");
+    var title = $(this).attr('id');
+    console.log(title);
+    switchPanel(title);
+
+  });
+
+  function switchPanel(panel) {
+    console.log("got into switchPanel");
+    className = '".' + panel + '"'
+    console.log(className);
+    $('.active').removeClass('active').addClass('inactive');
+    $("."+panel).removeClass('inactive fadeInUp').addClass('active');
+//    $("#"+title+2).removeClass('inactive').addClass('active');
+
+  }
 
 });
