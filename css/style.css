@@ -18,7 +18,8 @@
 }
 
 .navigation li:hover {
-  background: #FFCA28;
+  background: #FF6F00;
+  color: white;
 }
 
 .inactive {
@@ -32,4 +33,27 @@
 .logo {
   width: 70%;
   max-width:300px;
+}
+
+.mui-tab-pane {
+  padding:15px 10px;
+  height: 200px;
+}
+
+.mui-panel {
+  padding: 25px 20px;
+}
+
+.content {
+  height: 480px;
+}
+
+p, blockquote{
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.mui-panel li {
+  font-size: 1.1em;
+  line-height: 1.4em;
 }
