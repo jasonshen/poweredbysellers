@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   });
 
-  $('.mui-btn-primary').click(function() {
+  $('.mui-btn--primary').click(function() {
     var destination = $(this).attr('data-id')
     console.log(destination);
     switchPanel(destination);

@@ -7,213 +7,178 @@
     <!-- load MUI -->
     <link href="css/mui.min.css" rel="stylesheet" type="text/css" />
     <link href="css/mui-colors.css" rel="stylesheet" type="text/css" />
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!-- example content -->
-    <div class="mui-appbar mui-bg-color-amber-900">
-      <div style="text-align:center; padding:10px">
-				<img src="img/logo.png" class="logo">
-			</div>
-    </div>
-<div class="mui-container">
-    <div class="mui-row">
-			<br>
-      <div class="mui-col-md-3">
-        <div class="mui-panel navigation">
-					<ul>
-						<li class="current" id="about">About</li>
-						<li id="background">Analyzing Etsy's Business</li>
-						<li id="users">Exploring Personas</li>
-						<li id="solutions">Possible Solutions</li>
-						<li id="final">Final Thoughts</li>
-						<li id="references">References</li>
-					</ul>
-				</div>
-      </div>
-      <div class="mui-col-md-9">
-        <div>
-          <div class="mui-panel active about" id="about2">
-						<div class="content">
-	            <h1>Introduction</h1>
-							<p>Hi, I'm Jason. I designed and coded this site over the last few days because I'm excited about Etsy and I wanted to show you that I'm a product manager who is: </p>
-							<ul>
-								<li>business-oriented,</li>
-								<li>design-driven,</li>
-								<li>technically-capable,</li>
-								<li>and who <i>gets</i> Etsy.</li>
-							</ul>
-							<p>The site is built with <a href="http://muicss.com">MUI</a>, a lightweight CSS framework, and you can check out my <a href="https://github.com/jasonshen/poweredbysellers">Github repo here</a>.</p>
-							<h3>Why the Name?</h3>
-							<p>I decided to name this site "powered by sellers" because I think PM's on shop management, and the company has a whole, recognizes how important they are to the success of the business — from providing critical product feedback to bringing on new buyers and much more. As <a href="https://blog.etsy.com/news/2015/how-10000-sellers-helped-etsy-develop-new-tools/">Nickey said</a> with the launch of the new Listings Manager:</p>
-							<blockquote><i><h4>"Etsy is only successful when our sellers are successful."</h4></i></blockquote>
-
-						</div>
-
-            <button class="mui-btn mui-btn-primary mui-btn-raised" data-id="background">Next</button>
-
-
-          </div>
-          <div class="mui-panel inactive background" id="background2">
-						<div class="content">
-							<h2>Background Information</h2>
-							<p>Wanted to do a quick analysis on how where Etsy stands from a business perspective, and how that translates into goals for the product team, particularly shop management. Based on my conversation with <a href="http://www.jasonshen.com/2014/no-silver-bullets-etsys-randy-hunt-on-product-design/">Randy Hunt back in 2014</a>, thought it would make sense to use the Problem, Strengths, Weaknesses and Tenets model.</a>
-
-								<ul class="mui-tabs mui-tabs-justified">
-		              <li class="mui-active"><a data-mui-toggle="tab" data-mui-controls="pane-justified-1">Problem</a></li>
-		              <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-2">Strengths</a></li>
-		              <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-3">Weaknesses</a></li>
-		              <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-4">Tenets</a></li>
-		            </ul>
-		            <div class="mui-tab-content">
-		              <div class="mui-tab-pane mui-active" id="pane-justified-1">
-										<p>Etsy needs to grow its revenue significantly over the next few years if it hopes to be a strong, sustainable retail community. While revenue grew 57% in 2014 to $1.9B, the growth is slowing, moreover, Etsy was only able to add 26% more active sellers in the last fiscal year.</p>
-										<p>While there is still a massive global market for unique, handcrafted goods and supplies, capturing that revenue on a profitable basis while staying true to the company's mission of reimagining commerce for a more sustainable world will be a serious challenge.</p>
-									</div>
-		              <div class="mui-tab-pane" id="pane-justified-2">
-										<p>Etsy has a strong and loyal base of both sellers and buyers. 73% of purchase are repeat purchases and of sellers who stuck around from 2011 onward, their average earnings has grown to 13k a year. Etsy's seller services have done a great job of growing revenue without increasing mandatory fees, and nearly 1 in 2 sellers have used at least one service.</p>
-										<p>Etsy's process of contiuous deployment and a Prototypes program means the product team can iterate quickly and ship stable releases without fanfare or struggle. Mobile visits and sales are growing nicely. Members are extremely vocal about their enthusiasm for Etsy (along with valuable feedback for improving the platform). There's still huge opportunity for global expansion.</p>
-									</div>
-		              <div class="mui-tab-pane" id="pane-justified-3">
-										<p>It is getting harder for Etsy to main a high growth rate of new members, both seller and buyer. Seller growth fell from 29% to 26% in 2014, while buyer growth fell 54% to 36%. We may be starting to saturate the US market for vintage and handcrafted goods, considering that this slowed growth came after doubling marketing spend in 2014 to $40M.</p>
-										<p>There continues to be concerns with how Etsy defines concepts like "handmade" and "small-scale" It's possible that as Etsy power sellers get more tech and business savvy, they will look to other marketplaces to list their inventory - sites like Amazon, Shopify, Big Cartel or Squarspace.</p>
-									</div>
-								  <div class="mui-tab-pane" id="pane-justified-4">
-										<p>Ultimately, Etsy has to navigate itself carefully in the face of passionate, vocal users who care deeply not just about how Etsy's product will affect their bottom line, but whether Etsy's decisions reflect its committment to building a mindful, humane, and transparent business.</p>
-										<p>New revenue opportunity will likely come from the top-grossing sellers, as nearly all marketplaces eventually driven by power users (eBay, Airbnb). At the same time, welcoming new members is important as it takes a lot of initial investment in Etsy both as a buyer or a seller before the dividends really pay off.</p>
-									</div>
-		            </div>
-							</div>
-
-
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="about">Prev</button>
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="users">Next</button>
-          </div>
-
-          <div class="mui-panel inactive users">
-						<div class="content">
-							<h2>User Personas</h2>
-
-							<p>Etsy obviously has many different sellers who have different needs. I've come up with three different fictional personas, each with different needs and challenges that Shop Management can help address.</p>
-
-	            <ul class="mui-tabs mui-tabs-justified">
-	              <li class="mui-active"><a data-mui-toggle="tab" data-mui-controls="pane-justified-11">Gloria</a></li>
-	              <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-12">Lisbet</a></li>
-	              <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-13">Oren</a></li>
-	            </ul>
-	            <div class="mui-tab-content">
-	              <div class="mui-tab-pane mui-active" id="pane-justified-11">
-									<img src="img/gloria.png" align="right" height="120">
-									<p>Gloria Holland, based in Minneapolis MN, is a mother of two kids and has been a member of Etsy since 2008.</p>
-									<p><b>Situation:</b> Gloria's pillow-making efforts started as a way to keep herself busy during her pregnancy, but today, her Etsy store <em>Soft + Sassy</em> brings in over a dozen orders a day and she has a team of five that helps her sew and package these pillows. Like many of the 3,000+ Etsy shops that now have manufacturing partners, Gloria works with a small company that helps create some of the elements of her pillows.</p>
-									<p><b>Challenges:</b> Gloria is basically running a small business, and spends 60+ hrs a week dealing with customers, managing orders, overseeing production, getting items shipped, and paying her staff and vendors. She wants <em>Soft + Sassy</em> to grow but she's not sure how she can put more hours into her business while taking care of Jake and Amanda.</p>
-								</div>
-	              <div class="mui-tab-pane" id="pane-justified-12">
-									<img src="img/lisbet.png" align="right" height="125">
-									<p>Lisbet Torvik is a graphic designer and illustrator living in Oslo, Norway.
-
-									<p><b>Situation:</b> During the day, Lisbet works in the office of communications at University of Oslo, designing marketing collateral. But two years ago, a little frustrated at yet another redesign of graduation ceremonies flyer, she started an Etsy store selling unique geometric illustration prints, all of which are inked on to old newspapers discarded from the University library. Because the prints are so affordable and easy to make, <em>Gutenberg’s Nightmare</em> has customers in countries all around the world.</p>
-
-									<p><b>Challenge:</b> While she feels pretty good on the printing side of things, thanks to her friend Boris at the print shop, Lisbet is constantly juggling her poster tube inventory. Every week she has to mail out dozens of tubes containing her prints and her tiny apartment can’t hold a big stockpile so she always has to order more.</p>
-								</div>
-	              <div class="mui-tab-pane" id="pane-justified-13">
-									<img src="img/oren.png" align="right" height="120">
-									<p>Oren Bickford is a senior IT adviser for Ernst and Young, and lives in Melbourne, Australia.</p>
-									<p><b>Situation:</b> While known for having a steady hand, a no-nonsense approach, and dry sense of humor, Oren is secretly a huge comic book nerd. He's been collecting vintage shirts, posters, mugs, action figures, whatever you can imagine, he's probably got it at his Etsy store: <em>Shazam!</em>. On weekends, he'll drive a hundred miles to visit a flea market if he knows one of his favorite vendors is going to be there.</p>
-									<p><b>Challenge: </b>Despite his passion for comics and superheros, Oren is consistenly dissappointed with his sales figures. While he's not trying to quit his day job, he wants to see his store grow. He sometimes shares his items on Facebook, but because he has so many things for sale, he doesn't have time to do it consistently, and his friend group are mostly coworkers and family, few of whom are into this stuff.</p>
-								</div>
-							</div>
-	          </div>
-
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="background">Prev</button>
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="solutions">Next</button>
-
-          </div>
-
-					<div class="mui-panel inactive solutions">
-						<div class="content">
-							<h2>Possible Solutions</h2>
-							<p>Exploring the lives of Etsy sellers opened up some interesting needs, challenges, and opportunities to build products and services to support their lives and their businesses. I've expanded on a few of the more interesting ones below.</p>
-							<table class="mui-table">
-							  <thead>
-							    <tr>
-							      <th>Paying Teammates + Vendors</th>
-							      <th>Promoting Shops Beyond Etsy</th>
-							    </tr>
-							  </thead>
-							  <tbody>
-							    <tr>
-							      <td>While 93% of sellers on Etsy operate on their own, some (like Gloria) employ team members and work with vendors. One of the biggest headaches of growing a business is dealing with issues like payroll (time tracking, W-2's, cutting checks) and dealing with invoices. Etsy can streamline the process, by deducting payroll and invoices directly out of the shop's earnings. Over time, Etsy could even act as a <em>source of credit</em> for an established store that needs capital to expand.</td>
-							      <td>One in five sellers are already using Etsy's Promoted Listings service to get more visitors to their store. But what if we took it beyond Etsy's own pages? Etsy could act as an advertising platform for sellers bent on growth (like Oren), facilitating ads on Facebook, Google, Pinterest, and other platforms. Sellers could be able to retarget people who visit their store, or promote posts to friends of people who have liked their shop.</td>
-							    </tr>
-								</tbody>
-								<thead>
-									<tr>
-							      <th>Craft-Friendly Manufacturers</th>
-							      <th>Envelopes, On-Demand</th>
-							    </tr>
-								</thead>
-								<tbody>
-							    <tr>
-							      <td>What if Gloria gets a custom-order for a giant stuffed animal and her current manufacturer can't provide it? She either has to refuse to order or scramble to find a new vendor. What if there was an Etsy In-Network that she could quickly look up and find a viable, trusted manufacturing partner (like the 5,000 already working with sellers), that integrated seamlessly with her current workflow? Etsy could generate revenue from certifying manufacturers into the Network, and vendors could offer discounts to Etsy sellers.</td>
-							      <td>Let's face it. Shipping stuff is a hassle. Everything needs a container or package to hold things in place. What if Lisbet didn't have to buy tubes everyweek for her prints, and instead could click one button and have the right number of tubes (based on historical sales data) sent to her just in time? Bubble wrap, boxes, envelopes — it's not sexy, but it could make a big difference for sellers.</td>
-							    </tr>
-							  </tbody>
-							</table>
-						</div>
-
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="users">Prev</button>
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="final">Next</button>
-
-					</div>
-
-					<div class="mui-panel inactive final">
-						<div class="content">
-							<h2>Final Thoughts</h2>
-							<p>If I have learned anything about building product, it is that your community will surprise you. Even with all the data, and all the user insights and market knowledge, your approach is probably going to be wrong in important ways.</p>
-							<p>These thoughts represent an educated guess at the issues facing Etsy's business, platform, and users based limited information and a small window of analysis. Nonetheless, I hope it offers some insight and at the very least shows how I approach new challenges.</p>
-							<p>Ultimately, I believe that the best product managers marry a data-driven and empathy-oriented approach. They work with their teams to figure out the best path forward and clear the way so things get done, and nothing slips through the cracks.</p>
-							<p>I really believe in Etsy's mission and want to join as a PM to help build a global community-oriented marketplace.</p>
-						</div>
-
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="solutions">Prev</button>
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="references">Next</button>
-
-					</div>
-
-					<div class="mui-panel inactive references">
-						<div class="content">
-
-							<h2>References</h2>
-							<p>
-								<ul>
-									<li><a href="http://www.sec.gov/Archives/edgar/data/1370637/000119312515077045/d806992ds1.htm">Etsy S1-Filing</a> (sec.gov)</li>
-									<li><a href="http://blog.etsy.com">The Etsy Blog</a> (etsy.com)</li>
-									<li><a href="https://www.etsy.com/prototypes">Etsy Prototypes</a> (etsy.com)</li>
-									<li><a href="https://blog.etsy.com/news/files/2013/11/Etsy_Redefining-Entrepreneurship_November-2013.pdf">Redefining Entrepreneurship: 2013 User Survey</a> (etsy.com)</li>
-									<li><a href="http://www.jasonshen.com/2014/no-silver-bullets-etsys-randy-hunt-on-product-design/">No Silver Bullets: Etsy's Randy Hunt on Product Design</a> (jasonshen.com)</li>
-									<li><a href="http://www.wired.com/2014/04/why-etsys-future-depends-on-leaving-behind-the-simply-handmade/">Why Etsy's Future Depends on Leaving Behind the Simply Handmade</a> (wired.com)</li>
-									<li><a href="http://www.nytimes.com/2015/03/16/business/media/etsys-success-raises-problems-of-credibility-and-scale.html?_r=0">Etsy’s Success Gives Rise to Problems of Credibility and Scale</a> (nytimes.com)</li>
-							</ul>
-						</div>
-
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="final">Prev</button>
-						<button class="mui-btn mui-btn-primary mui-btn-raised" data-id="about">Home</button>
-
-					</div>
-
-
-
-
+    <div class="mui-appbar mui--bg-color-amber-900">
+      <div class="mui--text-center" style="padding:10px">
+	<img src="img/logo.png" class="logo">
       </div>
     </div>
-  </div>
-
-
+    <div class="mui-container">
+      <div class="mui-row">
+	<br>
+        <div class="mui-col-md-3">
+          <div class="mui-panel navigation">
+	    <ul>
+	      <li class="current" id="about">About</li>
+	      <li id="background">Analyzing Etsy's Business</li>
+	      <li id="users">Exploring Personas</li>
+	      <li id="solutions">Possible Solutions</li>
+	      <li id="final">Final Thoughts</li>
+	      <li id="references">References</li>
+	    </ul>
+	  </div>
+        </div>
+        <div class="mui-col-md-9">
+          <div>
+            <div class="mui-panel active about" id="about2">
+	      <div class="content">
+	        <h1>Introduction</h1>
+		<p>Hi, I'm Jason. I designed and coded this site over the last few days because I'm excited about Etsy and I wanted to show you that I'm a product manager who is: </p>
+		<ul>
+		  <li>business-oriented,</li>
+		  <li>design-driven,</li>
+		  <li>technically-capable,</li>
+		  <li>and who <i>gets</i> Etsy.</li>
+		</ul>
+		<p>The site is built with <a href="http://muicss.com">MUI</a>, a lightweight CSS framework, and you can check out my <a href="https://github.com/jasonshen/poweredbysellers">Github repo here</a>.</p>
+		<h3>Why the Name?</h3>
+		<p>I decided to name this site "powered by sellers" because I think PM's on shop management, and the company has a whole, recognizes how important they are to the success of the business — from providing critical product feedback to bringing on new buyers and much more. As <a href="https://blog.etsy.com/news/2015/how-10000-sellers-helped-etsy-develop-new-tools/">Nickey said</a> with the launch of the new Listings Manager:</p>
+		<blockquote><i><h4>"Etsy is only successful when our sellers are successful."</h4></i></blockquote>
+	      </div>
+              <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="background">Next</button>
+            </div>
+            <div class="mui-panel inactive background" id="background2">
+	      <div class="content">
+		<h2>Background Information</h2>
+		<p>Wanted to do a quick analysis on how where Etsy stands from a business perspective, and how that translates into goals for the product team, particularly shop management. Based on my conversation with <a href="http://www.jasonshen.com/2014/no-silver-bullets-etsys-randy-hunt-on-product-design/">Randy Hunt back in 2014</a>, thought it would make sense to use the Problem, Strengths, Weaknesses and Tenets model.</a>
+		  <ul class="mui-tabs__bar mui-tabs--justified">
+		    <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="pane-justified-1">Problem</a></li>
+		    <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-2">Strengths</a></li>
+		    <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-3">Weaknesses</a></li>
+		    <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-4">Tenets</a></li>
+		  </ul>
+		  <div class="mui-tabs__pane mui--is-active" id="pane-justified-1">
+		    <p>Etsy needs to grow its revenue significantly over the next few years if it hopes to be a strong, sustainable retail community. While revenue grew 57% in 2014 to $1.9B, the growth is slowing, moreover, Etsy was only able to add 26% more active sellers in the last fiscal year.</p>
+		    <p>While there is still a massive global market for unique, handcrafted goods and supplies, capturing that revenue on a profitable basis while staying true to the company's mission of reimagining commerce for a more sustainable world will be a serious challenge.</p>
+		  </div>
+		  <div class="mui-tabs__pane" id="pane-justified-2">
+		    <p>Etsy has a strong and loyal base of both sellers and buyers. 73% of purchase are repeat purchases and of sellers who stuck around from 2011 onward, their average earnings has grown to 13k a year. Etsy's seller services have done a great job of growing revenue without increasing mandatory fees, and nearly 1 in 2 sellers have used at least one service.</p>
+		    <p>Etsy's process of contiuous deployment and a Prototypes program means the product team can iterate quickly and ship stable releases without fanfare or struggle. Mobile visits and sales are growing nicely. Members are extremely vocal about their enthusiasm for Etsy (along with valuable feedback for improving the platform). There's still huge opportunity for global expansion.</p>
+		  </div>
+		  <div class="mui-tabs__pane" id="pane-justified-3">
+		    <p>It is getting harder for Etsy to main a high growth rate of new members, both seller and buyer. Seller growth fell from 29% to 26% in 2014, while buyer growth fell 54% to 36%. We may be starting to saturate the US market for vintage and handcrafted goods, considering that this slowed growth came after doubling marketing spend in 2014 to $40M.</p>
+		    <p>There continues to be concerns with how Etsy defines concepts like "handmade" and "small-scale" It's possible that as Etsy power sellers get more tech and business savvy, they will look to other marketplaces to list their inventory - sites like Amazon, Shopify, Big Cartel or Squarspace.</p>
+		  </div>
+		  <div class="mui-tabs__pane" id="pane-justified-4">
+		    <p>Ultimately, Etsy has to navigate itself carefully in the face of passionate, vocal users who care deeply not just about how Etsy's product will affect their bottom line, but whether Etsy's decisions reflect its committment to building a mindful, humane, and transparent business.</p>
+		    <p>New revenue opportunity will likely come from the top-grossing sellers, as nearly all marketplaces eventually driven by power users (eBay, Airbnb). At the same time, welcoming new members is important as it takes a lot of initial investment in Etsy both as a buyer or a seller before the dividends really pay off.</p>
+		  </div>
+	      </div>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="about">Prev</button>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="users">Next</button>
+            </div>
+            <div class="mui-panel inactive users">
+	      <div class="content">
+		<h2>User Personas</h2>
+		<p>Etsy obviously has many different sellers who have different needs. I've come up with three different fictional personas, each with different needs and challenges that Shop Management can help address.</p>
+	        <ul class="mui-tabs__bar mui-tabs__bar--justified">
+	          <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="pane-justified-11">Gloria</a></li>
+	          <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-12">Lisbet</a></li>
+	          <li><a data-mui-toggle="tab" data-mui-controls="pane-justified-13">Oren</a></li>
+	        </ul>
+	        <div class="mui-tabs__pane mui--is-active" id="pane-justified-11">
+		  <img src="img/gloria.png" align="right" height="120">
+		  <p>Gloria Holland, based in Minneapolis MN, is a mother of two kids and has been a member of Etsy since 2008.</p>
+		  <p><b>Situation:</b> Gloria's pillow-making efforts started as a way to keep herself busy during her pregnancy, but today, her Etsy store <em>Soft + Sassy</em> brings in over a dozen orders a day and she has a team of five that helps her sew and package these pillows. Like many of the 3,000+ Etsy shops that now have manufacturing partners, Gloria works with a small company that helps create some of the elements of her pillows.</p>
+		  <p><b>Challenges:</b> Gloria is basically running a small business, and spends 60+ hrs a week dealing with customers, managing orders, overseeing production, getting items shipped, and paying her staff and vendors. She wants <em>Soft + Sassy</em> to grow but she's not sure how she can put more hours into her business while taking care of Jake and Amanda.</p>
+		</div>
+	        <div class="mui-tabs__pane" id="pane-justified-12">
+		  <img src="img/lisbet.png" align="right" height="125">
+		  <p>Lisbet Torvik is a graphic designer and illustrator living in Oslo, Norway.</p>
+		  <p><b>Situation:</b> During the day, Lisbet works in the office of communications at University of Oslo, designing marketing collateral. But two years ago, a little frustrated at yet another redesign of graduation ceremonies flyer, she started an Etsy store selling unique geometric illustration prints, all of which are inked on to old newspapers discarded from the University library. Because the prints are so affordable and easy to make, <em>Gutenberg’s Nightmare</em> has customers in countries all around the world.</p>
+		  <p><b>Challenge:</b> While she feels pretty good on the printing side of things, thanks to her friend Boris at the print shop, Lisbet is constantly juggling her poster tube inventory. Every week she has to mail out dozens of tubes containing her prints and her tiny apartment can’t hold a big stockpile so she always has to order more.</p>
+		</div>
+	        <div class="mui-tabs__pane" id="pane-justified-13">
+		  <img src="img/oren.png" align="right" height="120">
+		  <p>Oren Bickford is a senior IT adviser for Ernst and Young, and lives in Melbourne, Australia.</p>
+		  <p><b>Situation:</b> While known for having a steady hand, a no-nonsense approach, and dry sense of humor, Oren is secretly a huge comic book nerd. He's been collecting vintage shirts, posters, mugs, action figures, whatever you can imagine, he's probably got it at his Etsy store: <em>Shazam!</em>. On weekends, he'll drive a hundred miles to visit a flea market if he knows one of his favorite vendors is going to be there.</p>
+		  <p><b>Challenge: </b>Despite his passion for comics and superheros, Oren is consistenly dissappointed with his sales figures. While he's not trying to quit his day job, he wants to see his store grow. He sometimes shares his items on Facebook, but because he has so many things for sale, he doesn't have time to do it consistently, and his friend group are mostly coworkers and family, few of whom are into this stuff.</p>
+		</div>
+	      </div>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="background">Prev</button>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="solutions">Next</button>
+            </div>
+	    <div class="mui-panel inactive solutions">
+	      <div class="content">
+	        <h2>Possible Solutions</h2>
+	        <p>Exploring the lives of Etsy sellers opened up some interesting needs, challenges, and opportunities to build products and services to support their lives and their businesses. I've expanded on a few of the more interesting ones below.</p>
+	        <table class="mui-table">
+		  <thead>
+		    <tr>
+		      <th>Paying Teammates + Vendors</th>
+		      <th>Promoting Shops Beyond Etsy</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>While 93% of sellers on Etsy operate on their own, some (like Gloria) employ team members and work with vendors. One of the biggest headaches of growing a business is dealing with issues like payroll (time tracking, W-2's, cutting checks) and dealing with invoices. Etsy can streamline the process, by deducting payroll and invoices directly out of the shop's earnings. Over time, Etsy could even act as a <em>source of credit</em> for an established store that needs capital to expand.</td>
+		      <td>One in five sellers are already using Etsy's Promoted Listings service to get more visitors to their store. But what if we took it beyond Etsy's own pages? Etsy could act as an advertising platform for sellers bent on growth (like Oren), facilitating ads on Facebook, Google, Pinterest, and other platforms. Sellers could be able to retarget people who visit their store, or promote posts to friends of people who have liked their shop.</td>
+		    </tr>
+		  </tbody>
+		  <thead>
+		    <tr>
+		      <th>Craft-Friendly Manufacturers</th>
+		      <th>Envelopes, On-Demand</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>What if Gloria gets a custom-order for a giant stuffed animal and her current manufacturer can't provide it? She either has to refuse to order or scramble to find a new vendor. What if there was an Etsy In-Network that she could quickly look up and find a viable, trusted manufacturing partner (like the 5,000 already working with sellers), that integrated seamlessly with her current workflow? Etsy could generate revenue from certifying manufacturers into the Network, and vendors could offer discounts to Etsy sellers.</td>
+		      <td>Let's face it. Shipping stuff is a hassle. Everything needs a container or package to hold things in place. What if Lisbet didn't have to buy tubes everyweek for her prints, and instead could click one button and have the right number of tubes (based on historical sales data) sent to her just in time? Bubble wrap, boxes, envelopes — it's not sexy, but it could make a big difference for sellers.</td>
+		    </tr>
+		  </tbody>
+	        </table>
+	      </div>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="users">Prev</button>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="final">Next</button>
+	    </div>
+	    <div class="mui-panel inactive final">
+	      <div class="content">
+	        <h2>Final Thoughts</h2>
+	        <p>If I have learned anything about building product, it is that your community will surprise you. Even with all the data, and all the user insights and market knowledge, your approach is probably going to be wrong in important ways.</p>
+	        <p>These thoughts represent an educated guess at the issues facing Etsy's business, platform, and users based limited information and a small window of analysis. Nonetheless, I hope it offers some insight and at the very least shows how I approach new challenges.</p>
+	        <p>Ultimately, I believe that the best product managers marry a data-driven and empathy-oriented approach. They work with their teams to figure out the best path forward and clear the way so things get done, and nothing slips through the cracks.</p>
+	        <p>I really believe in Etsy's mission and want to join as a PM to help build a global community-oriented marketplace.</p>
+	      </div>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="solutions">Prev</button>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="references">Next</button>
+	    </div>
+	    <div class="mui-panel inactive references">
+	      <div class="content">
+	        <h2>References</h2>
+	        <p>
+		  <ul>
+		    <li><a href="http://www.sec.gov/Archives/edgar/data/1370637/000119312515077045/d806992ds1.htm">Etsy S1-Filing</a> (sec.gov)</li>
+		    <li><a href="http://blog.etsy.com">The Etsy Blog</a> (etsy.com)</li>
+		    <li><a href="https://www.etsy.com/prototypes">Etsy Prototypes</a> (etsy.com)</li>
+		    <li><a href="https://blog.etsy.com/news/files/2013/11/Etsy_Redefining-Entrepreneurship_November-2013.pdf">Redefining Entrepreneurship: 2013 User Survey</a> (etsy.com)</li>
+		    <li><a href="http://www.jasonshen.com/2014/no-silver-bullets-etsys-randy-hunt-on-product-design/">No Silver Bullets: Etsy's Randy Hunt on Product Design</a> (jasonshen.com)</li>
+		    <li><a href="http://www.wired.com/2014/04/why-etsys-future-depends-on-leaving-behind-the-simply-handmade/">Why Etsy's Future Depends on Leaving Behind the Simply Handmade</a> (wired.com)</li>
+		    <li><a href="http://www.nytimes.com/2015/03/16/business/media/etsys-success-raises-problems-of-credibility-and-scale.html?_r=0">Etsy’s Success Gives Rise to Problems of Credibility and Scale</a> (nytimes.com)</li>
+		  </ul>
+	      </div>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="final">Prev</button>
+	      <button class="mui-btn mui-btn--primary mui-btn--raised" data-id="about">Home</button>
+	    </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="lib/mui.min.js"></script>
     <script src="lib/jquery-2.1.4.js"></script>
     <script src="js/app.js"></script>
-
   </body>
 </html>
